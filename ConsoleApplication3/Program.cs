@@ -11,7 +11,7 @@ namespace ConsoleApplication3
         private static void Main(string[] args)
         {
             Fund fund = new Fund() {FundType = FundType.BDC};
-            tot
+         
             FundBuilder builder = BuilderFactory.GetBuilder(fund);
             builder.Build(fund);
         }
