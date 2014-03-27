@@ -12,7 +12,7 @@ namespace ConsoleApplication3
         {
             Fund fund = new Fund() {FundType = FundType.MasterFeeder};
          //cimmf
-
+            //c2
             FundBuilder builder = BuilderFactory.GetBuilder(fund);
             builder.Build(fund);
         }
