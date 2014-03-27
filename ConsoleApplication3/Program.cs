@@ -11,8 +11,7 @@ namespace ConsoleApplication3
         private static void Main(string[] args)
         {
             Fund fund = new Fund() {FundType = FundType.MasterFeeder};
-         //cimmf
-            //c2
+         //true
             FundBuilder builder = BuilderFactory.GetBuilder(fund);
             builder.Build(fund);
         }
